@@ -1,4 +1,4 @@
-package se.patrikbergman.java.lombok;
+package se.patrikbergman.java.lombok.builder;
 
 import org.junit.Test;
 
