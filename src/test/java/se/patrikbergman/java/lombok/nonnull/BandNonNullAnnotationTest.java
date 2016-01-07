@@ -4,8 +4,8 @@ import org.junit.Test;
 
 public class BandNonNullAnnotationTest {
 
-    @Test
+    @Test(expected = NullPointerException.class)
     public void test() {
-        Band band = Band.builder().name(null).build();
+        Band.builder().name(null).build();
     }
 }
