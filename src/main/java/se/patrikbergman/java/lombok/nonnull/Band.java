@@ -4,7 +4,7 @@ import lombok.*;
 
 /**
  * With @NonNull on field "name", NullpointerException is thrown
- * if name parameter is null. Without @NonNull no exception is thrown
+ * if argument name=null. Without @NonNull no exception is thrown
  */
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
